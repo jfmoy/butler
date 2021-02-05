@@ -50,7 +50,7 @@
 </article>
 
 {% block comments %}
-<p>You can comment on this article on <a href="{{ page.extra.hn }}" rel="nofollow">HackerNews</a> or <a href="{{ page.extra.lobsters }}" rel="nofollow">Lobsters</a>.</p>
+<p>You can comment on this article on <a href="https://news.ycombinator.com/item?id={{ page.extra.hn }}" rel="nofollow">HackerNews</a> or <a href="https://lobste.rs/s/{{ page.extra.lobsters }}" rel="nofollow">Lobsters</a>.</p>
 {% endblock comments %}
 {# include related.html #}
 
